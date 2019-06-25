@@ -12,12 +12,14 @@ import random
 from cs50 import get_string
 import pandas as pd
 import statistics
-df1 = pd.read_csv("/root/alpha/git/mine/data_science/data/01JAN/SBIN.csv",header=None)
-df = df1[6]
+import talib
+path = "/home/yogesh/Downloads/SBIN.csv"
+df1 = pd.read_csv(path,header=None)
+df = df1[4]
 avg = statistics.mean(df)
 # ask the user for a target string
 # target = get_string("What target do you want to match? ")
-target = 4
+target = 6
 c1 = 0
 
 class Phrase:
@@ -54,6 +56,7 @@ class Phrase:
             self.count0 = 0
             self.r1(df[j])
             self.r2(j)
+            self.r3(j)
             if self.count0>(target/4):
                 if self.buy == 1 and self.sell == 0:
                     self.buy = 0
@@ -84,11 +87,8 @@ class Phrase:
 
         # flip a coin for each character, selecting from one parent each time
         for i in range(len(self.characters)):
-            if i % 3 != 0:
-                if random.random() < 0.5:
-                    child.characters[i] = self.characters[i]
-                else:
-                    child.characters[i] = partner.characters[i]
+            if random.random() < 0.5:
+                child.characters[i] = self.characters[i]
 
         return child
 
@@ -112,11 +112,18 @@ class Phrase:
         if j > 0:
             avg = statistics.mean(df[0:j])
             if df[j] > avg :
-                if self.characters[1] == '0':
+                if self.characters[3] == '0':
                     self.count0 += 1
             elif df[j] < avg:
+                if self.characters[2] == '0':
+                    self.count0 += 1
+    def r3(self, j):
+        if j > 0:
+            rocp = talib.ROCP(df[0:j], timeperiod=1)
+            if rocp[j-1] > 0  :
+                if self.characters[1] == '0':
+                    self.count0 += 1
+            elif rocp[j-1] < 0:
                 if self.characters[0] == '0':
                     self.count0 += 1
-
-
 

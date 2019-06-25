@@ -16,7 +16,7 @@ from cs50 import get_int
 import time
 # threading
 # prompt the user for a generation size
-popSize = 2#get_int("How many individuals in each generation? ")
+popSize = 10#get_int("How many individuals in each generation? ")
 
 # keep track of our population, generation, and the best score we've seen so far
 population = []
@@ -29,12 +29,16 @@ for i in range(popSize):
 
 child_set = set([])
 # keep going until we've found the target string
-while len(child_set)<4:
+while len(child_set)<64:
 
     # assess the fitness of each member of the population
     for i in range(popSize):
         population[i].getFitness()
+        prev=len(child_set)
         child_set.add(population[i].getContents())
+        new=len(child_set)
+        if prev!=new:
+            print(new)
         # if it's the best we've seen so far, let's report on it
         if int(population[i].score) > bestScore:
             bestScore = population[i].score
@@ -70,4 +74,8 @@ while len(child_set)<4:
         population.append(child)
 
     # done assessing the current generation
+    prev_gen=generation
     generation += 1
+    new_gen=generation
+    if prev_gen!=new_gen:
+        print("generation # " +str(new_gen))
