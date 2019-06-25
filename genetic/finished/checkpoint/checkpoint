@@ -1,0 +1,6 @@
+model_checkpoint_path: "best_model-2570"
+all_model_checkpoint_paths: "best_model-2160"
+all_model_checkpoint_paths: "best_model-2180"
+all_model_checkpoint_paths: "best_model-2490"
+all_model_checkpoint_paths: "best_model-2560"
+all_model_checkpoint_paths: "best_model-2570"
