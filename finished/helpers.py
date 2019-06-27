@@ -8,7 +8,7 @@
 # CS50                             #
 ####################################
 
-from finished.phrase import target
+from finished.phrase1 import target
 from termcolor import colored
 
 def colorize(s):
@@ -23,9 +23,9 @@ def colorize(s):
 
 
 # gen = current generation number, phr = string to print, fit = string's fitness
-def summarize(gen, phr, fit):
+def summarize(gen, phr, fit, tr):
 
     # cleanly summarizes the data of the "best we've seen so far"
     print(f"Generation #{gen:4}: ", end="")
     colorize(phr)
-    print(f"  score: {fit:3}")
+    print(f"  score: {fit:3} tran: {tr:2}")

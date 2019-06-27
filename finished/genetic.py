@@ -10,39 +10,49 @@
 
 import random
 
-from finished.phrase1 import Phrase, target
+from finished.phrase1 import Phrase
 from finished.helpers import summarize
-from cs50 import get_int
-import time
+
 # threading
 # prompt the user for a generation size
-popSize = 10#get_int("How many individuals in each generation? ")
+popSize = 750#get_int("How many individuals in each generation? ")
 
 # keep track of our population, generation, and the best score we've seen so far
 population = []
 bestScore = -111222
 generation = 1
-
+prev_per = 0
+siz = 4096
 # initial population from which other generations will follow
 for i in range(popSize):
     population.append(Phrase())
 
 child_set = set([])
 # keep going until we've found the target string
-while len(child_set)<64:
+while len(child_set)<siz:
 
     # assess the fitness of each member of the population
     for i in range(popSize):
         population[i].getFitness()
-        prev=len(child_set)
+        hash=''
+        pre=len(child_set)
         child_set.add(population[i].getContents())
-        new=len(child_set)
-        if prev!=new:
-            print(new)
+        now=len(child_set)
+        if pre!=now:
+            #print(now)
+            per = (now/siz) * 50
+            per = int(per)
+            if per!=prev_per:
+                for j in range(per):
+                    hash+='#'
+                for j in range(50-per):
+                    hash+='.'
+                print(hash + "\t" + str(now) + "/" + str(siz))
+            prev_per=per
         # if it's the best we've seen so far, let's report on it
-        if int(population[i].score) > bestScore:
+        if int(population[i].score) >= bestScore:
             bestScore = population[i].score
-            summarize(generation, population[i].getContents(), bestScore)
+            summarize(generation, population[i].getContents(), bestScore, population[i].transaction)
 
     # create the mating pool for the next generation
     matingPool = []
@@ -74,8 +84,9 @@ while len(child_set)<64:
         population.append(child)
 
     # done assessing the current generation
-    prev_gen=generation
+    #prev_gen=generation
     generation += 1
-    new_gen=generation
-    if prev_gen!=new_gen:
-        print("generation # " +str(new_gen))
+    #new_gen=generation
+    #if prev_gen!=new_gen:
+
+    print("Generation #\t" +str(generation) +":")
