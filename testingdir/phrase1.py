@@ -165,21 +165,13 @@ class Phrase:
                 self.characters[i] = chr(random.choice(range(48,50)))
     def r1(self, j):
         if j>0:
-            close_prices=df[0:j]
-            volumes = dfv[0:j]
-            rocp = talib.ROCP(close_prices, timeperiod=1)
-            norm_volumes = (volumes - numpy.mean(volumes)) / math.sqrt(numpy.var(volumes))
-            vrocp = talib.ROCP(norm_volumes + numpy.max(norm_volumes) - numpy.min(norm_volumes), timeperiod=1)
-            # vrocp = talib.ROCP(volumes, timeperiod=1)
-            if rocp[j-1]!=numpy.NaN and vrocp[j-1]!=numpy.NaN:
-                pv = rocp[j-1] * vrocp[j-1] * 100
-                if pv > 0:
-                    if rocp[j-1] > 0 and vrocp[j-1] > 0:
-                        if self.characters[1] == '0':
-                            self.count0 += 1
-                    elif rocp[j-1] < 0 and vrocp[j-1] < 0:
-                        if self.characters[0] == '0':
-                            self.count0 += 1
+            avg = 226;
+            if df[j] > avg:
+                if self.characters[3] == '0':
+                    self.count0 += 1
+            elif df[j] < avg:
+                if self.characters[2] == '0':
+                    self.count0 += 1
 
     def r2(self, j):
         if j > 0:

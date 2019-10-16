@@ -9,43 +9,29 @@
 ####################################
 
 import random
+import numpy,math
 from cs50 import get_string
-import numpy
-import math
 import pandas as pd
 import statistics
 import talib
-df1 = pd.read_csv("/home/yogesh/Downloads/JAN2019/JAN/07JAN/SBIN.txt", sep=",", header=None)
-df = pd.DataFrame(df1[1:180])
-df = pd.DataFrame(df[6])
-df = df.reset_index()
-df.drop(df.columns[0], inplace=True, axis=1)
-df = df[6]
-dfv = pd.DataFrame(df1[1:180])
-dfv = pd.DataFrame(dfv[7])
-dfv = dfv.reset_index()
-dfv.drop(dfv.columns[0], inplace=True, axis=1)
-dfv = dfv[7]
-avg = statistics.mean(df)
-lot_size=500
-brokerage=40
-# ask the user for a target string
-# target = get_string("What target do you want to match? ")
-target = 14
-c1 = 0
+import os
+from termcolor import colored
 
 class Phrase:
 
     # constructor method
-    def __init__(self):
+    def __init__(self, contents):
         self.characters = []
         # append len(target) number of randomly chosen printable ASCII chars
-        for i in range(target):
-            # if i % 3 != 0:
-            character = chr(random.choice(range(48,50)))
+        for i in range(len(contents)):
+            character = contents[i]
             self.characters.append(character)
         self.r1_avg_p = statistics.mean(df)
         self.count0 = 0
+        # self.r1_avg_p = statistics.mean(df)
+            # else:
+            #     self.characters.append('0')
+
             # else:
             #     self.characters.append('0')
 
@@ -248,3 +234,49 @@ class Phrase:
                 # print(str(a) + str(b))
                 if self.characters[12] == '0':
                     self.count0 += 1
+
+
+if __name__ == "__main__":
+    exit="0"
+    while exit=="0":
+        rule = input("Rule : ")
+        # DIR = os.listdir("/home/yogesh/Downloads/JAN2019/JAN")
+        # DIR.sort()
+        # rule = "11011000101001"
+        i= input("DIR : ")
+        total_score=0
+        # for i in DIR:
+        print(i,end="")
+        print("\t",end="")
+        df1 = pd.read_csv("/home/yogesh/Downloads/JAN2019/JAN/"+str(i)+"/SBIN.txt", sep=",", header=None)
+
+        df = pd.DataFrame(df1[181:376])
+        df = pd.DataFrame(df[6])
+        df = df.reset_index()
+        df.drop(df.columns[0], inplace=True, axis=1)
+        df=df[6]
+        dfv = pd.DataFrame(df1[1:376])
+        dfv = pd.DataFrame(dfv[7])
+        dfv = dfv.reset_index()
+        dfv.drop(dfv.columns[0], inplace=True, axis=1)
+        dfv=dfv[7]
+        # ask the user for a target string
+        # target = get_string("What target do you want to match? ")111010001000
+        target = 14
+        popSize = 100
+        lot_size = 500
+        # rule = "10011110101100"
+        ph = Phrase(rule)
+        ph.getFitness()
+        if ph.score > 0:
+            print(colored(ph.score, "green"),end="")
+        else:
+            print(colored(ph.score, "red"),end="")
+        total_score +=ph.score
+        print("\t" + str(ph.transaction) + "\t")
+        exit=input("EXIT : ")
+    print("Total Score : ",end=" ")
+    if total_score > 0:
+        print(colored(total_score, "green"), end="")
+    else:
+        print(colored(total_score, "red"), end="")

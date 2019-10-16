@@ -1,0 +1,306 @@
+/usr/bin/python3 /home/yogesh/.local/share/JetBrains/Toolbox/apps/PyCharm-P/ch-0/191.7479.30/helpers/pydev/pydevconsole.py --mode=client --port=45379
+import sys; print('Python %s on %s' % (sys.version, sys.platform))
+sys.path.extend(['/home/yogesh/GIT/stock-genetics'])
+Python 3.7.3 (default, Apr  3 2019, 05:39:12)
+Type 'copyright', 'credits' or 'license' for more information
+IPython 7.5.0 -- An enhanced Interactive Python. Type '?' for help.
+PyDev console: using IPython 7.5.0
+Python 3.7.3 (default, Apr  3 2019, 05:39:12)
+[GCC 8.3.0] on linux
+runfile('/home/yogesh/GIT/stock-genetics/testingdir/monthly testing.py', wdir='/home/yogesh/GIT/stock-genetics/testingdir')
+01JAN	Generation #   1: 11011000111001  score:545.0 tran:  2
+Generation #   2: 11011000111001  score:545.0 tran:  2
+Generation #   3: 11011000111001  score:545.0 tran:  2
+Generation #   4: 11011000111001  score:545.0 tran:  2
+Generation #   5: 11011000111001  score:545.0 tran:  2
+Generation #   6: 11011000111001  score:545.0 tran:  2
+Generation #   7: 11011000111001  score:545.0 tran:  2
+Generation #   8: 11011000111001  score:545.0 tran:  2
+Generation #   9: 11011000111001  score:545.0 tran:  2
+Generation #  10: 11011000111001  score:545.0 tran:  2
+		Rule	: 11011000111001	 Score	:2384.9999999999827	 Transactions : 1
+02JAN	Generation #   1: 01110000100110  score:279.9999999999943 tran:  8
+Generation #   2: 11000001110000  score:309.9999999999716 tran: 11
+Generation #   3: 11000011010010  score:459.99999999997726 tran: 11
+Generation #   4: 11000011010010  score:459.99999999997726 tran: 11
+Generation #   5: 11000011010010  score:459.99999999997726 tran: 11
+Generation #   6: 11000011010010  score:459.99999999997726 tran: 11
+Generation #   7: 11000011010010  score:459.99999999997726 tran: 11
+Generation #   8: 11000011010010  score:459.99999999997726 tran: 11
+Generation #   9: 11000011010010  score:459.99999999997726 tran: 11
+Generation #  10: 11000011010010  score:459.99999999997726 tran: 11
+		No Profitable Rule Found	: 03JAN	Generation #   1: 11000000010100  score:450.00000000002274 tran: 10
+Generation #   2: 01001011000000  score:890.0000000000455 tran: 14
+Generation #   3: 01001011000000  score:890.0000000000455 tran: 14
+Generation #   4: 01001011000000  score:890.0000000000455 tran: 14
+Generation #   5: 01001011000000  score:890.0000000000455 tran: 14
+Generation #   6: 01001011000000  score:890.0000000000455 tran: 14
+Generation #   7: 01001011000000  score:890.0000000000455 tran: 14
+Generation #   8: 01001011000000  score:890.0000000000455 tran: 14
+Generation #   9: 01001011000000  score:890.0000000000455 tran: 14
+Generation #  10: 01001011000000  score:890.0000000000455 tran: 14
+		Rule	: 01001011000000	 Score	:-1295.0000000000284	 Transactions : 23
+04JAN	Generation #   1: 01000001111100  score:1614.9999999999943 tran:  9
+Generation #   2: 01000001111100  score:1614.9999999999943 tran:  9
+Generation #   3: 01000001111100  score:1614.9999999999943 tran:  9
+Generation #   4: 01000001111100  score:1614.9999999999943 tran:  9
+Generation #   5: 00110011110100  score:1654.9999999999943 tran:  8
+Generation #   6: 00110011110100  score:1654.9999999999943 tran:  8
+Generation #   7: 00110011110100  score:1654.9999999999943 tran:  8
+Generation #   8: 11100001110001  score:1855.0000000000512 tran:  3
+Generation #   9: 11100001110001  score:1855.0000000000512 tran:  3
+Generation #  10: 11100001110001  score:1855.0000000000512 tran:  3
+		Rule	: 11100001110001	 Score	:170.0	 Transactions : 2
+07JAN	Generation #   1: 10100111000110  score:345.0000000000284 tran:  7
+Generation #   2: 10100111000110  score:345.0000000000284 tran:  7
+Generation #   3: 01010011100000  score:469.99999999997726 tran: 17
+Generation #   4: 01010011100000  score:469.99999999997726 tran: 17
+Generation #   5: 11100100100010  score:620.0000000000341 tran:  7
+Generation #   6: 11100100100010  score:620.0000000000341 tran:  7
+Generation #   7: 11100100100010  score:620.0000000000341 tran:  7
+Generation #   8: 11100100100010  score:620.0000000000341 tran:  7
+Generation #   9: 11100100100010  score:620.0000000000341 tran:  7
+Generation #  10: 11100100100010  score:620.0000000000341 tran:  7
+		Rule	: 11100100100010	 Score	:-1010.0000000000057	 Transactions : 9
+08JAN	Generation #   1: 01001011111001  score:1485.0000000000057 tran:  1
+Generation #   2: 00101010110101  score:1535.000000000017 tran:  1
+Generation #   3: 00001010010111  score:1550.0 tran:  5
+Generation #   4: 00001010010111  score:1550.0 tran:  5
+Generation #   5: 00001010010111  score:1550.0 tran:  5
+Generation #   6: 00001010010111  score:1550.0 tran:  5
+Generation #   7: 10011011111011  score:1559.999999999983 tran:  6
+Generation #   8: 10011011111011  score:1559.999999999983 tran:  6
+Generation #   9: 10011011111011  score:1559.999999999983 tran:  6
+Generation #  10: 10011011111011  score:1559.999999999983 tran:  6
+		Rule	: 10011011111011	 Score	:2899.9999999999945	 Transactions : 5
+09JAN	Generation #   1: 00100001100000  score:250.00000000009663 tran: 20
+Generation #   2: 00100001100000  score:250.00000000009663 tran: 20
+Generation #   3: 00100001100000  score:250.00000000009663 tran: 20
+Generation #   4: 00101000100010  score:424.99999999997726 tran: 15
+Generation #   5: 00101000100010  score:424.99999999997726 tran: 15
+Generation #   6: 00101000100010  score:424.99999999997726 tran: 15
+Generation #   7: 00101000100010  score:424.99999999997726 tran: 15
+Generation #   8: 10100010100000  score:440.0 tran: 14
+Generation #   9: 10100010100000  score:440.0 tran: 14
+Generation #  10: 00100011100010  score:500.0000000000796 tran: 15
+		Rule	: 00100011100010	 Score	:-3145.00000000004	 Transactions : 18
+10JAN	Generation #   1: 11101100100000  score:609.9999999999661 tran:  6
+Generation #   2: 01010011100010  score:810.0000000000057 tran: 21
+Generation #   3: 01010011100010  score:810.0000000000057 tran: 21
+Generation #   4: 01010011100010  score:810.0000000000057 tran: 21
+Generation #   5: 01010011100010  score:810.0000000000057 tran: 21
+Generation #   6: 01010011100010  score:810.0000000000057 tran: 21
+Generation #   7: 01010011100010  score:810.0000000000057 tran: 21
+Generation #   8: 01010011100010  score:810.0000000000057 tran: 21
+Generation #   9: 01010011100010  score:810.0000000000057 tran: 21
+Generation #  10: 01010011100010  score:810.0000000000057 tran: 21
+		Rule	: 01010011100010	 Score	:-2054.9999999999545	 Transactions : 22
+11JAN	Generation #   1: 00101000100001  score:195.0 tran: 17
+Generation #   2: 00101000100001  score:195.0 tran: 17
+Generation #   3: 00100010111010  score:235.0 tran: 16
+Generation #   4: 00101010110011  score:360.0 tran: 16
+Generation #   5: 00101010110011  score:360.0 tran: 16
+Generation #   6: 00101010110011  score:360.0 tran: 16
+Generation #   7: 10100001110011  score:434.99999999998863 tran: 16
+Generation #   8: 10100001110011  score:434.99999999998863 tran: 16
+Generation #   9: 10100001110011  score:434.99999999998863 tran: 16
+Generation #  10: 10100001110011  score:434.99999999998863 tran: 16
+		No Profitable Rule Found	: 14JAN	Generation #   1: 11100010110000  score:589.9999999999886 tran:  9
+Generation #   2: 11100010110000  score:589.9999999999886 tran:  9
+Generation #   3: 11100010110000  score:589.9999999999886 tran:  9
+Generation #   4: 11100010110000  score:589.9999999999886 tran:  9
+Generation #   5: 11100010110000  score:589.9999999999886 tran:  9
+Generation #   6: 11100010110000  score:589.9999999999886 tran:  9
+Generation #   7: 11100010110000  score:589.9999999999886 tran:  9
+Generation #   8: 11100010110000  score:589.9999999999886 tran:  9
+Generation #   9: 11100010110000  score:589.9999999999886 tran:  9
+Generation #  10: 11100010110000  score:589.9999999999886 tran:  9
+		Rule	: 11100010110000	 Score	:-150.00000000002842	 Transactions : 10
+15JAN	Generation #   1: 11101001110000  score:230.00000000002842 tran: 13
+Generation #   2: 11101001110000  score:230.00000000002842 tran: 13
+Generation #   3: 11101011000010  score:260.0000000000057 tran: 16
+Generation #   4: 11101011000010  score:260.0000000000057 tran: 16
+Generation #   5: 11101011000010  score:260.0000000000057 tran: 16
+Generation #   6: 11101011000010  score:260.0000000000057 tran: 16
+Generation #   7: 11101011000010  score:260.0000000000057 tran: 16
+Generation #   8: 11101011000010  score:260.0000000000057 tran: 16
+Generation #   9: 11101011000010  score:260.0000000000057 tran: 16
+Generation #  10: 11101011000010  score:260.0000000000057 tran: 16
+		No Profitable Rule Found	: 16JAN	Generation #   1: 11000000110010  score:1134.9999999999602 tran: 11
+Generation #   2: 11000000110010  score:1134.9999999999602 tran: 11
+Generation #   3: 11000000110010  score:1134.9999999999602 tran: 11
+Generation #   4: 11000000110010  score:1134.9999999999602 tran: 11
+Generation #   5: 11000000110010  score:1134.9999999999602 tran: 11
+Generation #   6: 11000000110010  score:1134.9999999999602 tran: 11
+Generation #   7: 11000000110010  score:1134.9999999999602 tran: 11
+Generation #   8: 11000000110010  score:1134.9999999999602 tran: 11
+Generation #   9: 11000000110010  score:1134.9999999999602 tran: 11
+Generation #  10: 11000000110010  score:1134.9999999999602 tran: 11
+		Rule	: 11000000110010	 Score	:-310.0000000000739	 Transactions : 9
+17JAN	Generation #   1: 00000010000011  score:1194.9999999999716 tran: 17
+Generation #   2: 00000010000011  score:1194.9999999999716 tran: 17
+Generation #   3: 00000010000011  score:1194.9999999999716 tran: 17
+Generation #   4: 00000010000011  score:1194.9999999999716 tran: 17
+Generation #   5: 10000010000010  score:1349.9999999999886 tran: 15
+Generation #   6: 10000010000010  score:1349.9999999999886 tran: 15
+Generation #   7: 10000010000010  score:1349.9999999999886 tran: 15
+Generation #   8: 10000010000010  score:1349.9999999999886 tran: 15
+Generation #   9: 10000010000010  score:1349.9999999999886 tran: 15
+Generation #  10: 10000010000010  score:1349.9999999999886 tran: 15
+		Rule	: 10000010000010	 Score	:24.999999999977263	 Transactions : 25
+18JAN	Generation #   1: 01100011100011  score:1019.9999999999886 tran: 17
+Generation #   2: 01100011100011  score:1019.9999999999886 tran: 17
+Generation #   3: 01100011100011  score:1019.9999999999886 tran: 17
+Generation #   4: 01100011100011  score:1019.9999999999886 tran: 17
+Generation #   5: 01100011100011  score:1019.9999999999886 tran: 17
+Generation #   6: 01100011100011  score:1019.9999999999886 tran: 17
+Generation #   7: 01100011100011  score:1019.9999999999886 tran: 17
+Generation #   8: 01100011100011  score:1019.9999999999886 tran: 17
+Generation #   9: 01100011100011  score:1019.9999999999886 tran: 17
+Generation #  10: 01100011100011  score:1019.9999999999886 tran: 17
+		Rule	: 01100011100011	 Score	:-1300.000000000074	 Transactions : 15
+21JAN	Generation #   1: 10000001010000  score:-39.99999999996021 tran: 21
+Generation #   2: 10000001010000  score:-39.99999999996021 tran: 21
+Generation #   3: 10000001010000  score:-39.99999999996021 tran: 21
+Generation #   4: 10000001010000  score:-39.99999999996021 tran: 21
+Generation #   5: 10000011000010  score:735.000000000017 tran: 21
+Generation #   6: 10000011000010  score:735.000000000017 tran: 21
+Generation #   7: 10000001010010  score:795.0000000000114 tran: 22
+Generation #   8: 10000001010010  score:795.0000000000114 tran: 22
+Generation #   9: 10000001010010  score:795.0000000000114 tran: 22
+Generation #  10: 10000001010010  score:795.0000000000114 tran: 22
+		Rule	: 10000001010010	 Score	:-170.00000000001705	 Transactions : 18
+22JAN	Generation #   1: 00000001100000  score:-259.99999999994316 tran: 19
+Generation #   2: 00000000000000  score:-44.99999999993179 tran: 18
+Generation #   3: 00000000000000  score:-44.99999999993179 tran: 18
+Generation #   4: 00000000000000  score:-44.99999999993179 tran: 18
+Generation #   5: 00000000000000  score:-44.99999999993179 tran: 18
+Generation #   6: 00000000000000  score:-44.99999999993179 tran: 18
+Generation #   7: 00000000000000  score:-44.99999999993179 tran: 18
+Generation #   8: 00000000000000  score:-44.99999999993179 tran: 18
+Generation #   9: 00000000000000  score:-44.99999999993179 tran: 18
+Generation #  10: 00000000000000  score:-44.99999999993179 tran: 18
+		No Profitable Rule Found	: 23JAN	Generation #   1: 01011010110000  score:805.0 tran:  8
+Generation #   2: 00011011100001  score:859.9999999999602 tran: 21
+Generation #   3: 00011011100001  score:859.9999999999602 tran: 21
+Generation #   4: 00011011100001  score:859.9999999999602 tran: 21
+Generation #   5: 01011011110000  score:1120.0000000000057 tran:  7
+Generation #   6: 01011011110000  score:1120.0000000000057 tran:  7
+Generation #   7: 01011011110000  score:1120.0000000000057 tran:  7
+Generation #   8: 00001011100001  score:1205.000000000017 tran: 28
+Generation #   9: 00001011100001  score:1205.000000000017 tran: 28
+Generation #  10: 00001011100001  score:1205.000000000017 tran: 28
+		Rule	: 00001011100001	 Score	:-139.99999999999432	 Transactions : 26
+24JAN	Generation #   1: 11101101100010  score:1289.9999999999773 tran:  9
+Generation #   2: 11101101100010  score:1289.9999999999773 tran:  9
+Generation #   3: 11101101100010  score:1289.9999999999773 tran:  9
+Generation #   4: 11101101100010  score:1289.9999999999773 tran:  9
+Generation #   5: 11101101100010  score:1289.9999999999773 tran:  9
+Generation #   6: 11101101100010  score:1289.9999999999773 tran:  9
+Generation #   7: 11101101100010  score:1289.9999999999773 tran:  9
+Generation #   8: 11101101100010  score:1289.9999999999773 tran:  9
+Generation #   9: 11101101100010  score:1289.9999999999773 tran:  9
+Generation #  10: 11101101100010  score:1289.9999999999773 tran:  9
+		Rule	: 11101101100010	 Score	:410.00000000002274	 Transactions : 11
+25JAN	Generation #   1: 01100100001010  score:335.0000000000625 tran: 11
+Generation #   2: 01100100001010  score:335.0000000000625 tran: 11
+Generation #   3: 01100001101011  score:455.0000000000625 tran:  8
+Generation #   4: 11100110100000  score:590.000000000017 tran:  9
+Generation #   5: 11100110100000  score:590.000000000017 tran:  9
+Generation #   6: 11100110100000  score:590.000000000017 tran:  9
+Generation #   7: 11100110100000  score:590.000000000017 tran:  9
+Generation #   8: 11000011100011  score:900.0000000000114 tran: 10
+Generation #   9: 11000011100011  score:900.0000000000114 tran: 10
+Generation #  10: 11000011100011  score:900.0000000000114 tran: 10
+		Rule	: 11000011100011	 Score	:-1909.9999999999827	 Transactions : 9
+28JAN	Generation #   1: 10000001110011  score:1610.0000000000568 tran: 16
+Generation #   2: 10000010000001  score:2500.0000000000628 tran: 10
+Generation #   3: 00000010110001  score:2520.000000000057 tran: 12
+Generation #   4: 00000010110001  score:2520.000000000057 tran: 12
+Generation #   5: 00000010010001  score:2900.0000000000396 tran: 10
+Generation #   6: 00000010010001  score:2900.0000000000396 tran: 10
+Generation #   7: 00000010010001  score:2900.0000000000396 tran: 10
+Generation #   8: 00000010010001  score:2900.0000000000396 tran: 10
+Generation #   9: 00000010010001  score:2900.0000000000396 tran: 10
+Generation #  10: 00000010010001  score:2900.0000000000396 tran: 10
+		Rule	: 00000010010001	 Score	:-850.0000000000455	 Transactions : 10
+29JAN	Generation #   1: 00001011100111  score:1850.000000000017 tran: 15
+Generation #   2: 00001011100111  score:1850.000000000017 tran: 15
+Generation #   3: 00001011100111  score:1850.000000000017 tran: 15
+Generation #   4: 10100111100001  score:2040.000000000034 tran:  9
+Generation #   5: 10100111100001  score:2040.000000000034 tran:  9
+Generation #   6: 10100111100001  score:2040.000000000034 tran:  9
+Generation #   7: 10100111100001  score:2040.000000000034 tran:  9
+Generation #   8: 10100111100001  score:2040.000000000034 tran:  9
+Generation #   9: 10100111100001  score:2040.000000000034 tran:  9
+Generation #  10: 10100111100001  score:2040.000000000034 tran:  9
+		Rule	: 10100111100001	 Score	:779.9999999999945	 Transactions : 8
+30JAN	Generation #   1: 11011010001011  score:1794.9999999999998 tran:  2
+Generation #   2: 11011010001011  score:1794.9999999999998 tran:  2
+Generation #   3: 00000100011001  score:2214.999999999989 tran:  9
+Generation #   4: 00000100011001  score:2214.999999999989 tran:  9
+Generation #   5: 10000110010011  score:2245.0000000000055 tran:  7
+Generation #   6: 10000110010011  score:2245.0000000000055 tran:  7
+Generation #   7: 10000110010011  score:2245.0000000000055 tran:  7
+Generation #   8: 10000110010011  score:2245.0000000000055 tran:  7
+Generation #   9: 10000110010011  score:2245.0000000000055 tran:  7
+Generation #  10: 10000110010011  score:2245.0000000000055 tran:  7
+		Rule	: 10000110010011	 Score	:1799.9999999999716	 Transactions : 5
+31JAN	Generation #   1: 00000010100000  score:59.999999999914735 tran: 11
+Generation #   2: 00000010100000  score:59.999999999914735 tran: 11
+Generation #   3: 00000010100000  score:59.999999999914735 tran: 11
+Generation #   4: 00000010100000  score:59.999999999914735 tran: 11
+Generation #   5: 00000010100000  score:59.999999999914735 tran: 11
+Generation #   6: 00000010100000  score:59.999999999914735 tran: 11
+Generation #   7: 00000010100000  score:59.999999999914735 tran: 11
+Generation #   8: 00000010100000  score:59.999999999914735 tran: 11
+Generation #   9: 00000010100000  score:59.999999999914735 tran: 11
+Generation #  10: 00000010100000  score:59.999999999914735 tran: 11
+		No Profitable Rule Found	: Total Score :  -3865.000000000301
+
+
+01JAN	Rule	: 11011000111001	 Score	:   2384.9999999999827	        Transactions : 1
+
+02JAN	No Profitable Rule Found	:
+
+03JAN	Rule	: 01001011000000	 Score	:  -1295.0000000000284	        Transactions : 23
+
+04JAN	Rule	: 11100001110001	 Score	:   170.0	                    Transactions : 2
+
+07JAN	Rule	: 11100100100010	 Score	:  -1010.0000000000057	        Transactions : 9
+
+08JAN	Rule	: 10011011111011	 Score	:   2899.9999999999945	        Transactions : 5
+
+09JAN	Rule	: 00100011100010	 Score	:  -3145.00000000004	        Transactions : 18
+
+10JAN	Rule	: 01010011100010	 Score	:  -2054.9999999999545	        Transactions : 22
+
+11JAN	No Profitable Rule Found	:
+
+14JAN	Rule	: 11100010110000	 Score	:  -150.00000000002842	        Transactions : 10
+
+15JAN	No Profitable Rule Found	:
+
+16JAN	Rule	: 11000000110010	 Score	:  -310.0000000000739	        Transactions : 9
+
+17JAN	Rule	: 10000010000010	 Score	:   24.999999999977263	        Transactions : 25
+
+18JAN	Rule	: 01100011100011	 Score	:  -1300.000000000074	        Transactions : 15
+
+21JAN	Rule	: 10000001010010	 Score	:  -170.00000000001705	        Transactions : 18
+
+22JAN	No Profitable Rule Found	:
+
+23JAN	Rule	: 00001011100001	 Score	:  -139.99999999999432	        Transactions : 26
+
+24JAN	Rule	: 11101101100010	 Score	:   410.00000000002274	        Transactions : 11
+
+25JAN	Rule	: 11000011100011	 Score	:  -1909.9999999999827	        Transactions : 9
+
+28JAN	Rule	: 00000010010001	 Score	:  -850.0000000000455	        Transactions : 10
+
+29JAN	Rule	: 10100111100001	 Score	:   779.9999999999945	        Transactions : 8
+
+30JAN	Rule	: 10000110010011	 Score	:   1799.9999999999716	        Transactions : 5
+
+                             Total Score :  -3865.000000000301
