@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7518c67e-d5c4-4cb0-8569-23c198ce1539" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/stock-genetics.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genetic/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genetic/finished/Untitled.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genetic/finished/checkpoint/best_model-2160.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genetic/finished/checkpoint/best_model-2160.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genetic/finished/checkpoint/best_model-2160.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genetic/finished/checkpoint/best_model-2180.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genetic/finished/checkpoint/best_model-2180.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genetic/finished/checkpoint/best_model-2180.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genetic/finished/checkpoint/best_model-2490.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genetic/finished/checkpoint/best_model-2490.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genetic/finished/checkpoint/best_model-2490.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genetic/finished/checkpoint/best_model-2560.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genetic/finished/checkpoint/best_model-2560.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genetic/finished/checkpoint/best_model-2560.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genetic/finished/checkpoint/best_model-2570.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genetic/finished/checkpoint/best_model-2570.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genetic/finished/checkpoint/best_model-2570.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genetic/finished/checkpoint/checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genetic/finished/dataset.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genetic/finished/genetic.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genetic/finished/graphs/events.out.tfevents.1561447194.iris" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genetic/finished/graphs/events.out.tfevents.1561447835.iris" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genetic/finished/graphs/events.out.tfevents.1561447959.iris" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genetic/finished/helpers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genetic/finished/indicators.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genetic/finished/phrase.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genetic/finished/phrase1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genetic/finished/rawdata.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genetic/finished/sbi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genetic/finished/smarttrade.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genetic/finished/toy.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genetic/genetic_slides.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genetic/starter/genetic.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genetic/starter/helpers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genetic/starter/phrase.py" beforeDir="false" />
+    <list default="true" id="7518c67e-d5c4-4cb0-8569-23c198ce1539" name="Default Changelist" comment="changed genetic and phrase1">
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finished/testing 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finished/testing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testingdir/Untitled.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testingdir/checkpoint/best_model-2160.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testingdir/checkpoint/best_model-2160.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testingdir/checkpoint/best_model-2160.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testingdir/checkpoint/best_model-2180.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testingdir/checkpoint/best_model-2180.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testingdir/checkpoint/best_model-2180.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testingdir/checkpoint/best_model-2490.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testingdir/checkpoint/best_model-2490.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testingdir/checkpoint/best_model-2490.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testingdir/checkpoint/best_model-2560.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testingdir/checkpoint/best_model-2560.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testingdir/checkpoint/best_model-2560.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testingdir/checkpoint/best_model-2570.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testingdir/checkpoint/best_model-2570.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testingdir/checkpoint/best_model-2570.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testingdir/checkpoint/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testingdir/dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testingdir/genetic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testingdir/graphs/events.out.tfevents.1561447194.iris" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testingdir/graphs/events.out.tfevents.1561447835.iris" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testingdir/graphs/events.out.tfevents.1561447959.iris" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testingdir/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testingdir/indicators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testingdir/monthly testing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testingdir/phrase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testingdir/phrase1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testingdir/rawdata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testingdir/sbi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testingdir/smarttrade.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testingdir/testing 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testingdir/testing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testingdir/toy.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finished/genetic.py" beforeDir="false" afterPath="$PROJECT_DIR$/finished/genetic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finished/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/finished/helpers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finished/phrase1.py" beforeDir="false" afterPath="$PROJECT_DIR$/finished/phrase1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,13 +49,60 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/finished/phrase1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            <state relative-caret-position="370">
+              <caret line="181" column="44" lean-forward="true" selection-start-line="167" selection-start-column="12" selection-end-line="181" selection-end-column="44" />
+              <folding>
+                <element signature="e#334#347#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testingdir/monthly testing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5276">
+              <caret line="556" column="55" lean-forward="true" selection-start-line="556" selection-start-column="55" selection-end-line="556" selection-end-column="55" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testingdir/phrase1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="170" column="36" lean-forward="true" selection-start-line="170" selection-start-column="36" selection-end-line="170" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testingdir/testing result.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="261" column="32" selection-start-line="261" selection-start-column="18" selection-end-line="261" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -63,7 +110,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/finished/indicators.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-865">
+            <state relative-caret-position="530">
               <caret line="94" column="50" selection-start-line="94" selection-start-column="50" selection-end-line="95" selection-end-column="31" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
@@ -73,10 +120,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/finished/testing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+              <folding>
+                <element signature="e#334#347#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/finished/testing 2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="254" column="18" lean-forward="true" selection-start-line="254" selection-start-column="18" selection-end-line="254" selection-end-column="18" />
+              <folding>
+                <element signature="e#334#347#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/finished/genetic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="605">
-              <caret line="91" column="47" selection-start-line="91" selection-start-column="47" selection-end-line="91" selection-end-column="47" />
+            <state relative-caret-position="1095">
+              <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
               <folding>
                 <element signature="e#334#347#0" expanded="true" />
               </folding>
@@ -87,19 +158,36 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/finished/helpers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+            <state relative-caret-position="5">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>score</find>
       <find>macd</find>
+      <find>self,</find>
+      <find>( j)</find>
+      <find>rul</find>
+      <find>summariz</find>
+      <find>summ</find>
+      <find>run_train</find>
     </findStrings>
+    <replaceStrings>
+      <replace>population</replace>
+      <replace>(j,count0)</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -109,23 +197,20 @@
       <list>
         <option value="$PROJECT_DIR$/genetic/finished/phrase1.py" />
         <option value="$PROJECT_DIR$/genetic/finished/genetic.py" />
+        <option value="$PROJECT_DIR$/finished/testing.py" />
         <option value="$PROJECT_DIR$/finished/helpers.py" />
         <option value="$PROJECT_DIR$/finished/genetic.py" />
         <option value="$PROJECT_DIR$/finished/phrase1.py" />
+        <option value="$PROJECT_DIR$/testingdir/monthly testing.py" />
+        <option value="$PROJECT_DIR$/testingdir/testing result.py" />
+        <option value="$PROJECT_DIR$/testingdir/testing result.txt" />
+        <option value="$PROJECT_DIR$/testingdir/phrase1.py" />
+        <option value="$PROJECT_DIR$/finished/testing 2.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/stock-genetics.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="821" />
     <option name="y" value="27" />
     <option name="width" value="960" />
     <option name="height" value="1053" />
@@ -135,6 +220,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -147,21 +233,29 @@
               <item name="stock-genetics" type="462c0819:PsiDirectoryNode" />
               <item name="finished" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="stock-genetics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stock-genetics" type="462c0819:PsiDirectoryNode" />
+              <item name="testingdir" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/testingdir" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/testingdir" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -178,7 +272,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.genetic (1)">
+  <component name="RunManager" selected="Python.testing 2">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="stock-genetics" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="genetic (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="stock-genetics" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -201,7 +317,26 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="genetic" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="monthly testing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="stock-genetics" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testingdir" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testingdir/monthly testing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="phrase1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="stock-genetics" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -209,12 +344,56 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/genetic/finished" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/finished" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/genetic/finished/genetic.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/finished/phrase1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testing 2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="stock-genetics" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/finished" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/finished/testing 2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="stock-genetics" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/finished" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/finished/testing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -225,8 +404,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.testing 2" />
+        <item itemvalue="Python.monthly testing" />
         <item itemvalue="Python.genetic (1)" />
-        <item itemvalue="Python.genetic" />
+        <item itemvalue="Python.phrase1" />
+        <item itemvalue="Python.testing" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +423,11 @@
       <option name="presentableId" value="Default" />
       <updated>1561458671411</updated>
       <workItem from="1561458672943" duration="10508000" />
-      <workItem from="1561619058079" duration="4088000" />
+      <workItem from="1561619058079" duration="5689000" />
+      <workItem from="1561635812689" duration="2398000" />
+      <workItem from="1561704592118" duration="11776000" />
+      <workItem from="1561961810724" duration="19028000" />
+      <workItem from="1562136104164" duration="31806000" />
     </task>
     <task id="LOCAL-00001" summary="changed genetic and phrase1">
       <created>1561458798482</created>
@@ -254,33 +440,43 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14596000" />
+    <option name="totallyTimeSpent" value="81205000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2524013" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26040554" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3293348" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43838605" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3293348" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3293348" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3293348" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.45583424" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32977587" />
+      <window_info anchor="right" x="0" y="0" width="430" height="853" id="Documentation" order="5" side_tool="true" weight="0.32977587" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,7 +488,10 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/stock_genetics$genetic.coverage" NAME="genetic Coverage Results" MODIFIED="1561532674979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/genetic/finished" />
-    <SUITE FILE_PATH="coverage/stock_genetics$genetic__1_.coverage" NAME="genetic (1) Coverage Results" MODIFIED="1561622260326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/finished" />
+    <SUITE FILE_PATH="coverage/stock_genetics$phrase1.coverage" NAME="phrase1 Coverage Results" MODIFIED="1562137401971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/finished" />
+    <SUITE FILE_PATH="coverage/stock_genetics$testing.coverage" NAME="testing Coverage Results" MODIFIED="1561707687174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/finished" />
+    <SUITE FILE_PATH="coverage/stock_genetics$genetic__1_.coverage" NAME="genetic (1) Coverage Results" MODIFIED="1562154673654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/finished" />
+    <SUITE FILE_PATH="coverage/stock_genetics$testing_2.coverage" NAME="testing 2 Coverage Results" MODIFIED="1562238643161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/finished" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/finished/phrase.py">
@@ -300,26 +499,22 @@
         <state relative-caret-position="-180" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/testingdir/checkpoint/checkpoint">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/finished/genetic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="91" column="47" selection-start-line="91" selection-start-column="47" selection-end-line="91" selection-end-column="47" />
+        <state relative-caret-position="1095">
+          <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
           <folding>
             <element signature="e#334#347#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/finished/helpers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/finished/indicators.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-865">
+        <state relative-caret-position="530">
           <caret line="94" column="50" selection-start-line="94" selection-start-column="50" selection-end-line="95" selection-end-column="31" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
@@ -327,10 +522,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/finished/helpers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testingdir/testing result.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1569">
+          <caret line="275" column="89" lean-forward="true" selection-start-line="275" selection-start-column="89" selection-end-line="275" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/finished/testing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+          <folding>
+            <element signature="e#334#347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testingdir/testing result.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="261" column="32" selection-start-line="261" selection-start-column="18" selection-end-line="261" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testingdir/phrase1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="170" column="36" lean-forward="true" selection-start-line="170" selection-start-column="36" selection-end-line="170" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testingdir/monthly testing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5276">
+          <caret line="556" column="55" lean-forward="true" selection-start-line="556" selection-start-column="55" selection-end-line="556" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/finished/phrase1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        <state relative-caret-position="370">
+          <caret line="181" column="44" lean-forward="true" selection-start-line="167" selection-start-column="12" selection-end-line="181" selection-end-column="44" />
+          <folding>
+            <element signature="e#334#347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/finished/testing 2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="254" column="18" lean-forward="true" selection-start-line="254" selection-start-column="18" selection-end-line="254" selection-end-column="18" />
+          <folding>
+            <element signature="e#334#347#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
